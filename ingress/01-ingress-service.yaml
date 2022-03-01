@@ -6,7 +6,7 @@ metadata:
   namespace: ingress-ns
 spec:
   type: ExternalName
-  # externalName: flask-svc.blue-ns.svc.cluster.local
-  externalName: flask-svc.green-ns.svc.cluster.local
+  externalName: flask-svc.blue-ns.svc.cluster.local
+  # externalName: flask-svc.green-ns.svc.cluster.local
   ports:
   - port: 80
