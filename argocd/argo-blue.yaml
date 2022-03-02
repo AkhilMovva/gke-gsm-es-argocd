@@ -12,7 +12,7 @@ spec:
     path: dev/blue
   destination: 
     server: https://kubernetes.default.svc # dns for k8s api server
-    namespace: blue
+    namespace: blue-ns
 
   syncPolicy:  # polls every 3 min # if not configure a git webhook
     syncOptions:

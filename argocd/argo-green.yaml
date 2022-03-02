@@ -12,7 +12,7 @@ spec:
     path: dev/green
   destination: 
     server: https://kubernetes.default.svc # dns for k8s api server
-    namespace: green
+    namespace: green-ns
 
   syncPolicy:  # polls every 3 min # if not configure a git webhook
     syncOptions:
