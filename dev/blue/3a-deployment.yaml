@@ -27,6 +27,11 @@ spec:
                 secretKeyRef:
                   name: secret-created
                   key: my-secret-key
+            - name: API_TOKEN_2
+              valueFrom:
+                secretKeyRef:
+                  name: secret-created
+                  key: my-api-key
           ports:
           - containerPort: 5000
 ---
